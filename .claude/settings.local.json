@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh issue *)",
+      "PowerShell(gh issue *)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-FileHash *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Rename-Item *)",
+      "PowerShell(npx skills@latest add C:/Users/Mitja/source/repos/batcave 2>&1)",
+      "PowerShell(npx skills@latest add C:/Users/Mitja/source/repos/batcave -y -g 2>&1)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(gh repo view netopirpubec/batcave --json visibility,name,defaultBranchRef)",
+      "PowerShell(git push *)",
+      "PowerShell(npx skills@latest add netopirpubec/batcave 2>&1)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-CimInstance *)"
+    ]
+  }
+}
